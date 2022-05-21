@@ -1,0 +1,67 @@
+.container {
+  height: 100vh;
+  width: 100vh;
+}
+
+.container .menu {
+  display: flex;
+  padding: 1.25rem;
+  /*border: 1px solid red;*/
+  background-color: rgb(255, 255, 255);
+}
+
+.container .menu p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(95, 95, 95);
+  margin-bottom: 3rem;
+}
+
+.container .menu span {
+  color: rgb(42, 163, 42);
+}
+
+.container .menu .list-menu h3 {
+
+  color: rgb(42, 163, 42);
+  margin-bottom: 1rem;
+}
+
+.container .menu .list-menu ul {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.container .menu .list-menu ul li {
+  list-style: none;
+}
+
+.container .menu .list-menu ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgb(95, 95, 95);
+
+}
+
+.container .menu .list-menu ul li a:hover {
+  color: rgb(29, 29, 29);
+  transition: 0.2s;
+}
+
+.container .main {
+  width: 100%;
+  background-color: rgb(117, 117, 117);
+
+}
+
+.container .main .welcome {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container .main h1 {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+
+}
